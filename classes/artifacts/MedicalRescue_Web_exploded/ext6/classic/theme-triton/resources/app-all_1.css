@@ -1,0 +1,250 @@
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:560 */
+.x-treelist {
+    background-color: #fff;
+    background-position: 16px 0%;
+    overflow: hidden;
+    padding: 0 0 0 0;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:573 */
+.x-treelist-container,
+.x-treelist-root-container {
+    width: 100%;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:578 */
+.x-treelist-toolstrip {
+    display: none;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:583 */
+.x-treelist-micro > .x-treelist-toolstrip {
+    display: inline-block;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:586 */
+.x-treelist-micro > .x-treelist-root-container {
+    display: none;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:591 */
+.x-treelist-item,
+.x-treelist-container,
+.x-treelist-root-container {
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:600 */
+.x-treelist-item-tool,
+.x-treelist-row,
+.x-treelist-item-wrap {
+    position: relative;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:606 */
+.x-treelist-item-icon,
+.x-treelist-item-expander {
+    display: none;
+    position: absolute;
+    top: 0;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:613 */
+.x-treelist-item-expander {
+    right: 0;
+    cursor: pointer;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:618 */
+.x-treelist-expander-only .x-treelist-item-expandable > * > .x-treelist-item-wrap > * {
+    cursor: pointer;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:622 */
+.x-treelist-item-text {
+    cursor: default;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:628 */
+.x-treelist-item-collapsed > .x-treelist-container {
+    display: none;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:632 */
+.x-treelist-item-expandable > * > * > .x-treelist-item-expander,
+.x-treelist-item-icon {
+    display: block;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:637 */
+.x-treelist-item-floated > * > * > .x-treelist-item-expander,
+.x-treelist-item-floated > * > * > .x-treelist-item-icon {
+    display: none;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:642 */
+.x-treelist-expander-first .x-treelist-item-expander {
+    right: 0;
+    left: auto;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:100 */
+.x-treelist-toolstrip {
+    background-color: #f8f8f8;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:131 */
+.x-treelist-item-selected > .x-treelist-row {
+    background-color: #ffefbb;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:135 */
+.x-treelist-item-selected > .x-treelist-row-over {
+    background-color: #ffefbb;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:140 */
+.x-treelist-item-tool {
+    padding-left: 6px;
+    padding-right: 10px;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:163 */
+.x-treelist-item-icon:before,
+.x-treelist-item-tool:before,
+.x-treelist-item-expander {
+    line-height: 32px;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:175 */
+.x-treelist-item-icon,
+.x-treelist-item-tool,
+.x-treelist-item-expander {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:185 */
+.x-treelist-item-loading .x-treelist-item-icon {
+    background-image: url(images/tree/loading.gif);
+    color: transparent;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:190 */
+.x-treelist-item-icon,
+.x-treelist-item-tool {
+    color: #5fa2dd;
+    font-size: 16px;
+    width: 16px;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:203 */
+.x-treelist-item-tool {
+    width: 32px;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:213 */
+.x-treelist-item-expander {
+    color: #5fa2dd;
+    font-size: 16px;
+    width: 18px;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:229 */
+.x-treelist-item-expander:after {
+    content: "\f0da";
+    font: 16px/1 FontAwesome;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:233 */
+.x-treelist-item-expanded > * > * > .x-treelist-item-expander:after {
+    content: "\f0d7";
+    font: 16px/1 FontAwesome;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:242 */
+.x-treelist-item-text {
+    color: #404040;
+    margin-left: 22px;
+    margin-right: 18px;
+    font-size: 13px;
+    line-height: 32px;
+    text-overflow: ellipsis;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:258 */
+.x-treelist-row {
+    padding-left: 6px;
+    padding-right: 10px;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:289 */
+.x-treelist-item-floated .x-treelist-container {
+    width: auto;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:292 */
+.x-treelist-item-floated > .x-treelist-row {
+    background-color: #f8f8f8;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:296 */
+.x-treelist-item-floated > .x-treelist-container {
+    margin-left: -16px;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:305 */
+.x-treelist-item-floated > * > * > .x-treelist-item-text {
+    margin-left: 0;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:309 */
+.x-treelist-item-floated > * .x-treelist-row {
+    padding-left: 0;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:313 */
+.x-treelist-item-floated .x-treelist-row:before {
+    width: 0;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:317 */
+.x-treelist-item-floated > .x-treelist-row-over {
+    background-color: #f8f8f8;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:320 */
+.x-treelist-item-floated > .x-treelist-row-over > * > .x-treelist-item-text {
+    color: #404040;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:333 */
+.x-treelist-item-expanded > .x-treelist-item-expander:after {
+    content: "\f0d7";
+    font: 16px/1 FontAwesome;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:338 */
+.x-treelist-item-collapsed > * > .x-treelist-item-expander:after {
+    content: "\f0da";
+    font: 16px/1 FontAwesome;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:344 */
+&.x-treelist-highlight-path .x-treelist-item-over > * > .x-treelist-item-icon {
+    color: #5fa2dd;
+    transition: color 0.5s;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:348 */
+&.x-treelist-highlight-path .x-treelist-item-over > * > .x-treelist-item-text {
+    color: #404040;
+    transition: color 0.5s;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:352 */
+&.x-treelist-highlight-path .x-treelist-item-over > * > .x-treelist-item-expander {
+    color: #5fa2dd;
+    transition: color 0.5s;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:359 */
+.x-treelist-row-over {
+    background-color: #eaeff4;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:362 */
+.x-treelist-row-over > * > .x-treelist-item-icon {
+    color: #5fa2dd;
+    transition: color 0.5s;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:366 */
+.x-treelist-row-over > * > .x-treelist-item-text {
+    color: #404040;
+    transition: color 0.5s;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:370 */
+.x-treelist-row-over > * > .x-treelist-item-expander {
+    color: #5fa2dd;
+    transition: color 0.5s;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:377 */
+.x-treelist-expander-first .x-treelist-item-icon {
+    left: 0px;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:386 */
+.x-treelist-expander-first .x-treelist-item-text {
+    margin-left: 40px;
+    margin-right: 0;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:396 */
+.x-treelist-expander-first .x-treelist-item-hide-icon > * > * > .x-treelist-item-text {
+    margin-left: 24px;
+}
+/* E:/extdashboard/ext/packages/core/sass/src/list/TreeItem.scss:406 */
+.x-treelist-item-hide-icon > * > * > .x-treelist-item-text {
+    margin-left: 6px;
+}

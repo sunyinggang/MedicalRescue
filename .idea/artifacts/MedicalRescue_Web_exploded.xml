@@ -1,0 +1,128 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MedicalRescue:Web exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/MedicalRescue_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="MedicalRescue/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MedicalRescue" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="ojdbc7.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="json-lib-2.3-jdk15.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="ezmorph-1.0.6.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="mail.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="jspSmartUpload.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="javax.jms-1.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="commons-beanutils-1.8.0.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="log4j-1.2.15.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="acrobat-core-charset.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="acrobat-core.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="activation.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="antlr-3.0.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="antlr-runtime-3.0.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="asm-attrs.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="asm.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="axis.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="backport-util-concurrent.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="cglib-2.1.3.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="commons-cli-1.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="commons-collections-3.2.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="commons-dbcp-1.2.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="commons-discovery-0.2.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="commons-fileupload-1.2.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="commons-httpclient-3.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="concurrent.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="cxf-api-2.6.0.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="cxf-rt-bindings-soap-2.6.0.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="cxf-rt-bindings-xml-2.6.0.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="cxf-rt-core-2.6.0.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="cxf-rt-databinding-jaxb-2.6.0.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="cxf-rt-frontend-jaxws-2.6.0.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="cxf-rt-frontend-simple-2.6.0.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="cxf-rt-transports-http-2.6.0.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="cxf-rt-ws-addr-2.6.0.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="cxf-rt-ws-policy-2.6.0.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="dom4j-1.6.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="imageinfo-1.9.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="itext-2.0.6.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="java-core-2.6.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="jaxrpc.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="jaxws-api-2.1-1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="jcommon-1.0.12.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="jdom.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="jfreechart-1.0.12.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="js.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="jsafeJCE.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="jsr173_1.0_api.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="jta.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="junit.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="jxl.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="rabbitmq-client.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="resources.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="saaj.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="script-api.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="script-js.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="neethi-3.0.0.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="pdfencryption.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="slf4j-api-1.5.8.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="slf4j-simple-1.5.8.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="tomcat-juli.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="velocity-1.7.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="wsdl4j.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="wstx-asl-3.2.0.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="xerces-2.6.2.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="xfire-jsr181-api-1.0-M1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="xmlschema-core-2.0.2.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="xom-1.2.2.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="xssProtect-0.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="poi-3.14-20160307.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="poi-examples-3.14-20160307.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="poi-excelant-3.14-20160307.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="poi-ooxml-3.14-20160307.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="poi-ooxml-schemas-3.14-20160307.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="poi-scratchpad-3.14-20160307.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="lucene-analyzers-common-5.3.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="lucene-analyzers-smartcn-5.3.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="lucene-core-5.3.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="lucene-highlighter-5.3.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="lucene-memory-5.3.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="lucene-queryparser-5.3.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="hamcrest-core-1.3.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="mysql-connector-java-5.1.38-bin.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="xmlbeans-2.6.0.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="IKAnalyzer-5.0.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="spring-aop-4.3.14.RELEASE.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="spring-beans-4.3.14.RELEASE.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="spring-context-4.3.14.RELEASE.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="spring-core-4.3.14.RELEASE.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="spring-expression-4.3.14.RELEASE.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="spring-web-4.3.14.RELEASE.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="spring-webmvc-4.3.14.RELEASE.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="hibernate3.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="ejb3-persistence-1.0.2.GA.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="hibernate-annotations-3.2.1.ga.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="hibernate-commons-annotations-3.3.0.ga.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="json.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="commons-io-2.4.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="jsoup-1.11.2.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="javax.servlet.jsp.jstl.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="jstl-impl.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="httpmime-4.3.3.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="bcprov-jdk15on-1.60.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="spring-web.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="jodconverter-2.2.2.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="httpclient-4.5.2.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="httpcore-4.4.4.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="xstream-1.3.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="commons-codec-1.9.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="commons-lang-2.4.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="commons-lang3-3.1.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="jcs-1.2.6.5.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="jgroups-2.2.8.jar" module-name="MedicalRescue" />
+          <element id="library" level="module" name="ueditor-1.1.0.jar" module-name="MedicalRescue" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

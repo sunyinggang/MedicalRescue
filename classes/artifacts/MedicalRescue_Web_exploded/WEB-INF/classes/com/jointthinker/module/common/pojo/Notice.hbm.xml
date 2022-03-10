@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.jointthinker.module.common.pojo">
+    <class
+        name="Notice"
+        table="core_notice"
+    >
+
+    <id
+        name="id"
+        type="java.lang.Long"
+        column="id"
+    >
+        <generator class="native" />
+    </id>
+    
+    <property
+        name="fromsysid"
+        type="java.lang.Long"
+        column="fromsysid"
+        length="11"
+    />
+	<property
+        name="fromsys"
+        type="java.lang.String"
+        column="fromsys"
+        length="100"
+    />
+     <property
+        name="noticetitle"
+        type="java.lang.String"
+        column="noticetitle"
+        length="100"
+    />
+     <property
+        name="noticedesc"
+        type="java.lang.String"
+        column="noticedesc"
+        length="4000"
+    />
+     <property
+        name="createtime"
+        type="java.util.Date"
+        column="createtime"
+        length="20"
+    />
+    
+    <property
+        name="createuserid"
+        type="java.lang.Long"
+        column="createuserid"
+        length="30"
+    />
+    
+    <property
+        name="createusername"
+        type="java.lang.String"
+        column="createusername"
+        length="50"
+    />
+     <property
+        name="status"
+        type="java.lang.Integer"
+        column="status"
+        length="30"
+    />
+    
+     <property
+        name="isdeleted"
+        type="java.lang.Integer"
+        column="isdeleted"
+        length="10"
+    />
+     <property
+        name="deletetime"
+        type="java.util.Date"
+        column="deletetime"
+        length="20"
+    />
+    <property
+        name="expiredate"
+        type="java.util.Date"
+        column="expiredate"
+        length="20"
+    />
+    <property
+        name="url"
+        type="java.lang.String"
+        column="url"
+        length="1000"
+    />
+    
+    </class>
+</hibernate-mapping>
+
+

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+ 	<Resource name="jdbc/medicalrescue" auth="Container" type="javax.sql.DataSource"
+		maxTotal="500" maxIdle="450" maxWaitMillis="10000"
+		username="root" password="123456" driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/medicalrescue?useOldAliasMetadataBehavior=true&amp;useSSL=false"/>
+</Context>

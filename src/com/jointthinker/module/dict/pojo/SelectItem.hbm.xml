@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.jointthinker.module.dict.pojo.SelectItem" table="SELECTITEM" >
+        <id name="id" type="java.lang.Long">
+            <column name="id" />
+            <generator class="native" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="name"/>
+        </property>
+        <property name="type" type="java.lang.String">
+            <column name="type"/>
+        </property>
+        <property name="sequence" type="java.lang.Integer">
+            <column name="sequence"/>
+        </property>
+         <property name="isview" type="java.lang.Integer">
+            <column name="isview"/>
+        </property>
+        <property name="parentcode" type="java.lang.String">
+            <column name="parentcode"/>
+        </property>
+         <property name="itemcode" type="java.lang.String">
+            <column name="itemcode"/>
+        </property>
+          <property name="fullcode" type="java.lang.String">
+            <column name="fullcode"/>
+        </property>
+         <property name="shortname" type="java.lang.String">
+            <column name="shortname"/>
+        </property>
+    </class>
+</hibernate-mapping>

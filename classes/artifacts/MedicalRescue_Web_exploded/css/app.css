@@ -1,0 +1,12 @@
+.cata {background-image: url(../images/catagory.png) !important;}
+.org {background-image: url(../images/levelorg.png) !important;}
+.dept {background-image: url(../images/org.png) !important;}
+.user {background-image:url(../images/user.png) !important;}
+.role {background-image:url(../images/role.png) !important;}
+.partuser {background-image:url(../images/user_back.png) !important;}
+
+::-webkit-scrollbar {width:10px;height:10px;}
+::-webkit-scrollbar-track {-webkit-box-shadow:inset006pxrgba(0,0,0,0.3);border-radius:10px;}
+::-webkit-scrollbar-thumb {border-radius:10px;background:#aeb0b3;-webkit-box-shadow:inset006pxrgba(0,0,0,0.5);}
+::-webkit-scrollbar-thumb:window-inactive {background:#aeb0b3;}
+.input-required{color: #c54747;font-size:9px;}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.jointthinker.module.common.pojo">
+    <class
+        name="NoticeEmployee"
+        table="core_notice_employee"
+    >
+
+    <id
+        name="id"
+        type="java.lang.Long"
+        column="id"
+    >
+        <generator class="native" />
+    </id>
+	<property
+        name="noticeid"
+        type="java.lang.Long"
+        column="noticeid"
+        length="25"
+    />
+     <property
+        name="readuserid"
+        type="java.lang.Long"
+        column="readuserid"
+        length="25"
+    />
+     <property
+        name="isread"
+        type="java.lang.Integer"
+        column="isread"
+        length="1"
+    />
+    <property
+        name="readtime"
+        type="java.util.Date"
+        column="readtime"
+        length="10"
+    />
+     
+    </class>
+</hibernate-mapping>
+
+
